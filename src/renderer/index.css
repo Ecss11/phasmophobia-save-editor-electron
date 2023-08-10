@@ -1,0 +1,70 @@
+:root {
+    --theme-color: #2c2c2c;
+    --content-color: white;
+}
+
+html, body {
+    display: flex;
+    overflow: hidden;
+
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: sans-serif;
+    color: var(--content-color);
+
+    background: var(--theme-color);
+
+    user-select: none;
+}
+
+header {
+    border-bottom: 1px solid var(--content-color);
+}
+
+header h1 {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main p {
+    font-size: 24px;
+}
+
+.main input {
+    margin-bottom: 2em;
+}
+
+.setting {
+    display: flex;
+
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting button {
+    margin: 0 1em;
+
+    font-size: 24px;
+    color: var(--content-color);
+
+    border: 2px solid var(--content-color);
+
+    background: var(--theme-color);
+
+    cursor: pointer;
+}
+
+.setting button:hover {
+    filter: opacity(0.8);
+}
