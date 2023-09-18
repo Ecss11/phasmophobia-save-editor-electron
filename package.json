@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Ecss11/phasmophobia-save-editor-electron#readme",
   "devDependencies": {
-    "electron": "^25.5.0",
+    "electron": "^25.8.1",
     "electron-reloader": "^1.2.3"
   }
 }
